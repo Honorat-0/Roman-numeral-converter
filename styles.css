@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 30px;
+}
+
+div {
+  width: 15rem;
+  margin: 1rem auto;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#number {
+  font-size: 1rem;
+  width: 10rem;
+}
+
+#convert-btn {
+  font-size: 1rem;
+}
+
+#output {
+  text-align: center;
+}
+
+.error {
+  background-color: #932727;
+  color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 20px;
+  }
+}
